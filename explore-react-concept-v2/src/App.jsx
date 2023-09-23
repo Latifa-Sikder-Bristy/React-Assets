@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 import Counter from './counter'
+import Team from './Team'
+import Users from './Users'
+import Friends from './Friends'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +24,9 @@ function App() {
   return (
     <>
       <h1>Vite + React</h1>
+      <Friends></Friends>
+      <Users></Users>
+      <Team></Team>
       <Counter></Counter>
       <button onClick={handleClicked}>Click Me</button>
       <button onClick={handleClicked2}>Click Me 2</button>
