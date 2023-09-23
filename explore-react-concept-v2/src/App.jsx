@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Counter from './counter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
   return (
     <>
       <h1>Vite + React</h1>
+      <Counter></Counter>
       <button onClick={handleClicked}>Click Me</button>
       <button onClick={handleClicked2}>Click Me 2</button>
       <button onClick={() => { alert('Third clicked') }}>Click Me 3</button>
