@@ -1,0 +1,11 @@
+.country {
+    border: 2px solid bisque;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.flag-height {
+    height: 30%;
+    margin-bottom: 30px;
+}
