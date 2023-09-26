@@ -9,3 +9,8 @@
     height: 30%;
     margin-bottom: 30px;
 }
+
+.visited {
+    background-color: bisque;
+    color: black;
+}
