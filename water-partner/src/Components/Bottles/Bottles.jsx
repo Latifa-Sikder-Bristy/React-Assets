@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Bottle from "../Bottle/Bottle";
 import './Bottles.css';
+import { addToLS, getStoreCart } from "../../Utilities/localstorage";
 
 const Bottles = () => {
     //declear useState
@@ -14,11 +15,22 @@ const Bottles = () => {
             .then(data => setbottles(data))
     }, [])
 
+    //load cart from local storage
+    useEffect(() => {
+        console.log('called the useEffect', bottles.length);
+        if (bottles.length > 0) {
+            const storeCart = getStoreCart();
+            console.log(storeCart);
+        }
+    }, [bottles])
+
     //handle purchase button
     const handleAddToCart = bottle => {
+        //copy the cart array cz react not push directly
         const newCart = [...cart, bottle]
         setCart(newCart)
-        console.log("add to cart: ", bottle);
+        addToLS(bottle.id)
+        // console.log("add to cart: ", bottle);
     }
     return (
         <div>
