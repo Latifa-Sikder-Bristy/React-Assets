@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "cover": "https://i.ibb.co/HttsYh5/retrosupply-j-Lw-VAUt-LOAQ-unsplash.jpg",
+        "title": "The Power of Positive Thinking",
+        "author_img": "https: //i.ibb.co/CBVtTs1/alex-suprun-ZHv-M3-XIOHo-E-unsplash.jpg",
+        "author": "John Doe",
+        "posted_date": "2023-10-01",
+        "reading_time": 10,
+        "hashtags": [
+            "positive",
+            "mindfulness",
+            "self-improvement"
+        ]
+    },
+    {
+        "id": 2,
+        "cover": "https://i.ibb.co/HttsYh5/retrosupply-j-Lw-VAUt-LOAQ-unsplash.jpg",
+        "title": "Exploring the Universe: A Beginner's Guide",
+        "author_img": "https: //i.ibb.co/Q6tfDCG/christian-buehner-DIt-Ylc26z-VI-unsplash.jpg",
+        "author": "Jane Smith",
+        "posted_date": "2023-09-25",
+        "reading_time": 15,
+        "hashtags": [
+            "space",
+            "astronomy",
+            "science"
+        ]
+    },
+    {
+        "id": 3,
+        "cover": "https://i.ibb.co/4MCW0cP/glenn-carstens-peters-npx-XWg-Q33-ZQ-unsplash.jpg",
+        "title": "Delicious Recipes from Around the World",
+        "author_img": "https: //i.ibb.co/mbcp6C6/jake-nackos-IF9-TK5-Uy-KI-unsplash.jpg",
+        "author": "Michael Brown",
+        "posted_date": "2023-09-15",
+        "reading_time": 20,
+        "hashtags": [
+            "food",
+            "cooking",
+            "recipes"
+        ]
+    },
+    {
+        "id": 4,
+        "cover": "https://i.ibb.co/4MCW0cP/glenn-carstens-peters-npx-XWg-Q33-ZQ-unsplash.jpg",
+        "title": "Mastering the Art of Public Speaking",
+        "author_img": "https: //i.ibb.co/s5Hyf7m/joseph-gonzalez-i-Fg-Rcq-Hznqg-unsplash.jpg",
+        "author": "Sarah Johnson",
+        "posted_date": "2023-09-05",
+        "reading_time": 12,
+        "hashtags": [
+            "communication",
+            "confidence",
+            "skills"
+        ]
+    },
+    {
+        "id": 5,
+        "cover": "https://i.ibb.co/HttsYh5/retrosupply-j-Lw-VAUt-LOAQ-unsplash.jpg",
+        "title": "The Importance of Regular Exercise",
+        "author_img": "https://i.ibb.co/x8qHS95/nicolas-horn-MTZTGv-Ds-HFY-unsplash.jpg",
+        "author": "Robert Williams",
+        "posted_date": "2023-08-28",
+        "reading_time": 18,
+        "hashtags": [
+            "fitness",
+            "health",
+            "wellness"
+        ]
+    }
+]
