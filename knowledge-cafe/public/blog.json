@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "author_img": "../src/assets/images/boy1.png",
+        "title": "The Power of Positive Thinking",
+        "cover": "../src/assets/images/1.jpg",
+        "author": "John Doe",
+        "posted_date": "2023-10-01",
+        "reading_time": 10,
+        "hashtags": [
+            "positive",
+            "mindfulness",
+            "self-improvement"
+        ]
+    },
+    {
+        "id": 2,
+        "author_img": "../src/assets/images/boy2.png",
+        "title": "Exploring the Universe: A Beginner's Guide",
+        "cover": "../src/assets/images/2.png",
+        "author": "Jane Smith",
+        "posted_date": "2023-09-25",
+        "reading_time": 15,
+        "hashtags": [
+            "space",
+            "astronomy",
+            "science"
+        ]
+    },
+    {
+        "id": 3,
+        "author_img": "../src/assets/images/girl1.jpg",
+        "title": "Delicious Recipes from Around the World",
+        "cover": "../src/assets/images/3.png",
+        "author": "Michael Brown",
+        "posted_date": "2023-09-15",
+        "reading_time": 20,
+        "hashtags": [
+            "food",
+            "cooking",
+            "recipes"
+        ]
+    },
+    {
+        "id": 4,
+        "author_img": "../src/assets/images/girl2.jpg",
+        "title": "Mastering the Art of Public Speaking",
+        "cover": "../src/assets/images/4.jpg",
+        "author": "Sarah Johnson",
+        "posted_date": "2023-09-05",
+        "reading_time": 12,
+        "hashtags": [
+            "communication",
+            "confidence",
+            "skills"
+        ]
+    },
+    {
+        "id": 5,
+        "author_img": "../src/assets/images/boy2.png",
+        "title": "The Importance of Regular Exercise",
+        "cover": "../src/assets/images/1.jpg",
+        "author": "Robert Williams",
+        "posted_date": "2023-08-28",
+        "reading_time": 18,
+        "hashtags": [
+            "fitness",
+            "health",
+            "wellness"
+        ]
+    }
+]
